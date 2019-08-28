@@ -1,0 +1,37 @@
+{
+  "name": "moviez",
+  "version": "1.0.0",
+  "description": "MERN stack movie night social app using OMDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpmcauliffe/MovieZ.git"
+  },
+  "keywords": [
+    "Node",
+    "React",
+    "Mongo",
+    "Express",
+    "Redux"
+  ],
+  "author": "Michael P McAuliffe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpmcauliffe/MovieZ/issues"
+  },
+  "homepage": "https://github.com/mpmcauliffe/MovieZ#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.2",
+    "config": "^3.2.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.11",
+    "nodemon": "^1.19.1"
+  }
+}
