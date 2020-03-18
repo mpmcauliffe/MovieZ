@@ -16,4 +16,4 @@ app.use(cookieSession({ keys: ['sdfuSD&$jfa7a7FdaH74haa&qgf6EWDg64qr7gy'] }))
 app.use(AppRouter.getInstance())
 
 
-app.listen(3000, () => console.log('up on http://localhost:3000'))
+app.listen(process.env.PORT || 3000, () => console.log('up on http://localhost:3000'))

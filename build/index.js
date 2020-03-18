@@ -14,4 +14,4 @@ var app = express_1.default();
 app.use(body_parser_1.default.urlencoded({ extended: true }));
 app.use(cookie_session_1.default({ keys: ['sdfuSD&$jfa7a7FdaH74haa&qgf6EWDg64qr7gy'] }));
 app.use(AppRouter_1.AppRouter.getInstance());
-app.listen(3000, function () { return console.log('up on http://localhost:3000'); });
+app.listen(process.env.PORT || 3000, function () { return console.log('up on http://localhost:3000'); });
